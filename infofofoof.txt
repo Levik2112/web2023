@@ -1,0 +1,3 @@
+asztali alkalmazasok fejlesztese C#(szíshárp)visual studio
+web programozás html css haladó,űrlapok javasrcipt
+adatbazis fejlesztes mariadb(mysql,fork klón)  xampp
