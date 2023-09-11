@@ -1,0 +1,7 @@
+H:\2023\c#\hazi\hazi\obj\Debug\hazi.csproj.AssemblyReference.cache
+H:\2023\c#\hazi\hazi\obj\Debug\hazi.csproj.CoreCompileInputs.cache
+H:\2023\c#\hazi\hazi\bin\Debug\hazi.exe.config
+H:\2023\c#\hazi\hazi\bin\Debug\hazi.exe
+H:\2023\c#\hazi\hazi\bin\Debug\hazi.pdb
+H:\2023\c#\hazi\hazi\obj\Debug\hazi.exe
+H:\2023\c#\hazi\hazi\obj\Debug\hazi.pdb

@@ -1,0 +1,7 @@
+H:\2023\c#\elso\elso\bin\Debug\elso.exe.config
+H:\2023\c#\elso\elso\bin\Debug\elso.exe
+H:\2023\c#\elso\elso\bin\Debug\elso.pdb
+H:\2023\c#\elso\elso\obj\Debug\elso.csproj.AssemblyReference.cache
+H:\2023\c#\elso\elso\obj\Debug\elso.csproj.CoreCompileInputs.cache
+H:\2023\c#\elso\elso\obj\Debug\elso.exe
+H:\2023\c#\elso\elso\obj\Debug\elso.pdb
