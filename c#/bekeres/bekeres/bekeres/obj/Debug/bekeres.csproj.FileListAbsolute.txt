@@ -1,0 +1,7 @@
+H:\2023\c#\bekeres\bekeres\bekeres\bin\Debug\bekeres.exe.config
+H:\2023\c#\bekeres\bekeres\bekeres\bin\Debug\bekeres.exe
+H:\2023\c#\bekeres\bekeres\bekeres\bin\Debug\bekeres.pdb
+H:\2023\c#\bekeres\bekeres\bekeres\obj\Debug\bekeres.csproj.AssemblyReference.cache
+H:\2023\c#\bekeres\bekeres\bekeres\obj\Debug\bekeres.csproj.CoreCompileInputs.cache
+H:\2023\c#\bekeres\bekeres\bekeres\obj\Debug\bekeres.exe
+H:\2023\c#\bekeres\bekeres\bekeres\obj\Debug\bekeres.pdb

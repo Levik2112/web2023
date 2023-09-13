@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+}
+table{
+    background-color: white;
+    margin: auto;
+    
+    width: 300px;
+}
+
+table,th,td{
+    border: 2px darkblue solid;
+}
+

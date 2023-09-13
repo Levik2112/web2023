@@ -25,15 +25,15 @@ namespace hazi
 
 
 
-            int second = 0;
+            int masodik = 0;
 
-            while (second < 96)
+            while (masodik < 96)
             {
-                Console.WriteLine(second += 1);
+                Console.WriteLine(masodik += 1);
 
-                if (second % 5 == 0)
+                if (masodik % 5 == 0)
                 {
-                    Console.Write(second + " ; ");
+                    Console.Write(masodik + " ; ");
                 }
 
 
