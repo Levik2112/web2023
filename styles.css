@@ -4,11 +4,34 @@ body{
 table{
     background-color: white;
     margin: auto;
-    
+    border: 2px darkblue solid;
     width: 300px;
 }
 
-table,th,td{
+
+td{
     border: 2px darkblue solid;
 }
 
+tr:nth-child(odd){
+    background-color: blue;
+}
+
+tr:nth-child(6){
+    font-size: larger;
+}
+tr:nth-child(10) td{
+    border-width: 15px; 
+}
+tr:nth-child(n+5){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:hover:nth-child(even){
+    background-color: grey;
+}
+
+tr:hover:nth-child(odd){
+    background-color: black;
+    color: white;
+}
