@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+#szul{
+    width: 50px;
+}
+#szulhely{
+    width: 50px;
+}
+
+.elso{
+    border: 1px solid black;
+    width: 250px;
+}
+.masodik{
+    border: 1px solid black;
+    width: 250px;
+}
+.nemzet{
+    margin-left: 90px;
+}

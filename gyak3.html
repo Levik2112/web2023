@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form formázás</title>
+</head>
+<body>
+    <form>
+        <fieldset>  
+            <legend>Szöveg</legend>
+            <label for="sz1">Szöveg1</label>
+            <input type="text" name="szöveg1" id="sz1">
+            <label for="sz2">Szöveg2</label>
+            <input type="text" name="szöveg2" id="sz2">
+            <label for="sz3">Szöveg3</label>
+            <input type="text" name="szöveg3" id="sz3">
+            <label for="sz4">Szöveg4</label>
+            <input type="text" name="szöveg4" id="sz4">
+            <label for="sz5">Szöveg5</label>
+            <input type="text" name="szöveg5" id="sz5">
+            <label for="pw1">Jelszó</label>
+            <input type="password" name="passw1" id="pw1">
+            <label for="pw2">Jelszó újra</label>
+            <input type="password" name="passw2" id="pw2">
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <h3>Válassz, ha igaz:</h3>
+            <label for="cb1">Igen?</label>
+            <input type="checkbox" name="check1" id="cb1">
+            <label for="cb2">Igen?</label>
+            <input type="checkbox" name="check2" id="cb2">
+            <label for="cb3">Igen?</label>
+            <input type="checkbox" name="check3" id="cb3">
+            <label for="cb4">Igen?</label>
+            <input type="checkbox" name="check4" id="cb4">
+            <label for="cb5">Igen?</label>
+            <input type="checkbox" name="check5" id="cb5">
+
+        </fieldset>
+        <fieldset>
+            <legend>Rádiógombok</legend>
+            <h3>Egyik csoport</h3>
+            <label for="rb1">Ez?</label>
+            <input type="radio" name="rg1" id="rg1">
+            <label for="rb2">Vagy ez?</label>
+            <input type="radio" name="rg1" id="rg2">
+            <label for="rb3">Vagy ez?</label>
+            <input type="radio" name="rg1" id="rg3">
+            <label for="rb4">Vagy ez?</label>
+            <input type="radio" name="rg1" id="rg4">
+
+            <h3>Másik csoport</h3>
+            <label for="rb5">Ez?</label>
+            <input type="radio" name="rg2" id="rg5">
+            <label for="rb6">Vagy ez?</label>
+            <input type="radio" name="rg2" id="rg6">
+            <label for="rb7">Vagy ez?</label>
+            <input type="radio" name="rg2" id="rg7">
+            <label for="rb8">Vagy ez?</label>
+            <input type="radio" name="rg2" id="rg8">
+
+        </fieldset>
+        <fieldset>
+            <legend>Egyéb</legend> <!-- keret -->
+            <label for="sel1">Válassz:</label>
+                <select name="select1" id="sel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <optgroup label="4-es csoport">
+                        <option>4</option>
+                        <option>4.1</option>
+                        <option>4.2</option>
+                        <option>4.3</option>
+                    </optgroup>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    
+                </select>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+        <input type="button" name="Ez egy gomb!" id="" value="Ez egy gomb it">
+        
+    </form>
+    <!--4-5 egy soros bekérés bekeretzve,checkbox 4-5,2 radio gomb,2select 1 textarea,legalul 1 3submit,reset,egyéb -->
+</body>
+</html>

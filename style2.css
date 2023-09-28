@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+/*
+label::after{
+    content: "<br>";
+    color: green;
+}
+*/
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    border: 2px solid blue;
+}
+a[target="blank"]{}
+input[type="text"]
+{
+    width: 300px;
+}
+input[type="checkbox"]
+{
+    margin: 10px;
+}
+input[type="password"]
+{
+    background-color: red;
+}
+input[name~="szoveg"]
+{
+    background-color: black;
+}
