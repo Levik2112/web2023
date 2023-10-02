@@ -1,0 +1,14 @@
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\bin\Debug\net6.0\oraigyak29.exe
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\bin\Debug\net6.0\oraigyak29.deps.json
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\bin\Debug\net6.0\oraigyak29.runtimeconfig.json
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\bin\Debug\net6.0\oraigyak29.dll
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\bin\Debug\net6.0\oraigyak29.pdb
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.AssemblyInfoInputs.cache
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.AssemblyInfo.cs
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.csproj.CoreCompileInputs.cache
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.dll
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\refint\oraigyak29.dll
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.pdb
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\oraigyak29.genruntimeconfig.cache
+H:\2023\c#\gyak\gyakorlasd\oraigyak29\oraigyak29\obj\Debug\net6.0\ref\oraigyak29.dll

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="gyako.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form formázás</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>  
+            <legend>Szöveg</legend>
+            <label for="sz1">Szöveg:</label>
+            <input type="text" name="szöveg1" id="sz1" placeholder="asd">
+           
+        </fieldset>
+        <fieldset>
+            <legend>Legördülő</legend> <!-- keret -->
+            <label for="sel1">Válassz:</label>
+                <select name="select1" id="sel1">
+                    <option value="o1">opcio1</option>
+                    <option value="o2">opcio2</option>
+                    <option value="o3">opcio3</option>
+                        <option>opcio4</option>
+                </select>
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <label >Válassz:</label>
+            <br>
+            <label for="cb1">opcio1</label>
+            <input type="checkbox" name="check1" id="cb1" checked>
+            <br>
+            <label for="cb2">opcio2</label>
+            <input type="checkbox" name="checkc" id="cb2">
+        </fieldset>
+        <fieldset>
+            <legend>Rádiógombok</legend>
+            <label for="rb1">Válassz:</label>
+            <br>
+            <label for="rb1">radio1</label>
+            
+            <input type="radio" name="rg1" id="rg1">
+            <br>
+            <label for="rb2">radio2</label>
+            <input type="radio" name="rg1" id="rg2">
+            <br>
+            <label for="rb3">radio3</label>
+            <input type="radio" name="rg1" id="rg3" checked>
+        </fieldset>
+        <fieldset>
+            <legend>Textarea</legend>
+            <label for="texta1">Ide irj:</label>
+            <br>
+            <textarea name="text1" id="text1" cols="30" rows="10">asd</textarea>
+        </fieldset>
+        <button name="gomb" value="q">gomb</button>
+        <input type="reset" name="resetgomb">
+        <input type="submit" name="submitogmb" value="POstázás">
+        <input type="button" name="inptugomb" id="gomb" value="ez egy gomb">
+        
+        
+    </form>
+    <!--szöveges mező,legurdolo 3 elemmel,2 checkbox 3 radiogomb,1 textarea,4 gomb -->
+</body>
+</html>
