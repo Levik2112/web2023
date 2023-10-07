@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bshtml.css">
+  </head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <form  action="#" method="post" id="form_id">
+        <fieldset class="box">
+        <legend class="szov1">Bejelentkezés/Regisztráció</legend>
+        <div class="szov1 row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="valami@gmail.com">
+          </div>
+        </div>
+        <div class="szov1 row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Jelszó:</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Jelszó12">
+          </div>
+        </div>
+        <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0"></legend>
+          <div class="col-sm-10">
+            <div class="szov1 form-check">
+              <input class="form-check-input" type="checkbox" name="gridCheck1" id="gridCheck1" value="option1">
+              <label class="form-check-label" for="gridRadios1">
+                Adatok mentése
+              </label>
+            </div>
+            <div class="szov1 form-check">
+                <input class="form-check-input" type="checkbox" name="gridCheck1" id="gridCheck1" value="option1">
+                <label class="form-check-label" for="gridRadios1">
+                  Feltételek elfogadása
+                </label>
+            </div>
+          </div>
+        </fieldset>
+        
+        
+        <button type="submit" class="szov1 btn btn-primary">Bejelentkezés</button>
+        <button type="submit" class="szov1 btn btn-primary">Regisztrálás</button>
+        <br>
+      </form>
+      
+     
+          
+            <fieldset class="box">
+                
+          <legend class="szov1"> Felhasználó adatok: </legend>
+          <p><label for="name" class="szov1 label_1">Név </label> 
+             <input type="text" name="name" id="name" placeholder=" Furko Ferko" required>
+             
+          <p><label for="email" class="szov1 label_1">E-mail</label>
+             <input type="email" name="email" id="email"  placeholder="valami@gmail.com" required>
+             
+          <p><label for="url" class="szov1 label_1">Honlap</label> 
+              <input type="url" name="url" id="url" placeholder="digitaliskenyelem.hu ">
+              <br>
+              <br>
+              <legend class="szov1">Üzenet tárgya:</legend>
+              <select class="szov1 form-select form-select-lg mb-1" aria-label="Large select example">
+                <option selected>Vásárlási információk</option>
+                <option value="1">Termékinformációk</option>
+                <option value="2">Szállítási információk</option>
+                
+              </select>
+            </fieldset>
+            <br>
+            <fieldset class="box">
+                <legend class="szov1">Gombok:</legend>
+                <h6 class="szov1">Szép vagy?</h3>
+                <div class="szov1 form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Igen
+                    </label>
+                  </div>
+                  <div class="szov1 form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Igen
+                    </label>
+                  </div>
+                  <div class="szov1 form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                    <label class="form-check-label" for="exampleRadios3">
+                        Ronda
+                    </label>
+                  </div>
+            </fieldset>
+            <br>
+            
+            
+       </fieldset>   
+       <fieldset class="box">
+        <legend class="szov1">Üzenet:</legend>
+        <label for="szoveg" class="szov1">Írja meg üzenetét!</label><br>
+        <textarea class="szov1" name="szoveg" id="szoveg" rows="4" cols="30" 
+            placeholder="Üzenet szövege..." required></textarea>  
+       </fieldset>  
+       <br>
+       <fieldset class="box">
+        <div class="szov1 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Szép kapcsoló</label>
+          </div>
+       </fieldset>
+       <input type="submit" name="Elküld" value="Elküldés">
+      </form>
+       
+</body>
+</html>

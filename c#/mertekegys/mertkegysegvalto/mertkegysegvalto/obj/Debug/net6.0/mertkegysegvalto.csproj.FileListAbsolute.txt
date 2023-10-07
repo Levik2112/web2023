@@ -1,0 +1,14 @@
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\bin\Debug\net6.0\mertkegysegvalto.exe
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\bin\Debug\net6.0\mertkegysegvalto.deps.json
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\bin\Debug\net6.0\mertkegysegvalto.runtimeconfig.json
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\bin\Debug\net6.0\mertkegysegvalto.dll
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\bin\Debug\net6.0\mertkegysegvalto.pdb
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.AssemblyInfoInputs.cache
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.AssemblyInfo.cs
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.csproj.CoreCompileInputs.cache
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.dll
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\refint\mertkegysegvalto.dll
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.pdb
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\mertkegysegvalto.genruntimeconfig.cache
+H:\2023\c#\mertekegys\mertkegysegvalto\mertkegysegvalto\obj\Debug\net6.0\ref\mertkegysegvalto.dll
