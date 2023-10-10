@@ -1,0 +1,52 @@
+.mezo{
+    background-color: lightgreen;
+    width: 500px;
+}
+#szov1{
+    background-color: greenyellow;
+}
+.belepes{
+    border: 1px solid green;
+    background-color: lightgreen;
+    color: green;
+}
+.szemadatok{
+    border: 1px solid green;
+    background-color: lightgreen;
+    color: green;
+}
+.szuldat{
+    margin-bottom: 10px;
+}
+.egyeb{
+    border: 1px solid green; 
+    background-color: lightgreen;
+    color: green;
+}
+#alerg1{
+    margin-left: 35px;
+}
+#alerg5{
+    margin-left: 35px;
+}
+.gombok{
+    border: 1px solid green;
+    background-color: lightgreen;
+    color: green;
+}
+#res1{
+    background-color: yellowgreen;
+    border:1px solid green;
+    border-radius: 10px;
+    height: 30px;
+   margin: auto;
+
+}
+#kuld1{
+    background-color: yellowgreen;
+    border:1px solid green;
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+    
+}

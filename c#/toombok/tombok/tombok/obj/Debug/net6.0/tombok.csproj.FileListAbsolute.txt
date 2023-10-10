@@ -1,0 +1,14 @@
+H:\2023\c#\toombok\tombok\tombok\bin\Debug\net6.0\tombok.exe
+H:\2023\c#\toombok\tombok\tombok\bin\Debug\net6.0\tombok.deps.json
+H:\2023\c#\toombok\tombok\tombok\bin\Debug\net6.0\tombok.runtimeconfig.json
+H:\2023\c#\toombok\tombok\tombok\bin\Debug\net6.0\tombok.dll
+H:\2023\c#\toombok\tombok\tombok\bin\Debug\net6.0\tombok.pdb
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.AssemblyInfoInputs.cache
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.AssemblyInfo.cs
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.csproj.CoreCompileInputs.cache
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.dll
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\refint\tombok.dll
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.pdb
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\tombok.genruntimeconfig.cache
+H:\2023\c#\toombok\tombok\tombok\obj\Debug\net6.0\ref\tombok.dll

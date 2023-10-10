@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doga</title>
+    <link rel="stylesheet" href="doga.css">
+</head>
+<body>
+    <form>
+        <fieldset class="mezo">
+            <legend class="belepes"><b>Belépési adatok</b></legend>
+            <div><b>Belépési Név</b></div>
+            <input type="text" name="szov1" id="szov1" placeholder="Próba Jóska">
+            <div><b>E-mail</b></div>
+            <input type="text" name="email" id="email" placeholder="nincs@om.hu">
+            <div><b>Jelszó</b></div>
+            <input type="password" name="jelszo1" id="jelszo1" placeholder="123456">
+
+        </fieldset>
+        <br>
+        <fieldset class="mezo">
+        <legend class="szemadatok"><b>Személyes adatok</b></legend>
+        <label class="szuldat">Születési dátum</label> <input type="date" name="datum1" id="datum1">
+        
+        <div><b>Nem</b></div>
+        
+        <input type="radio" name="nem1" id="nem1">
+        <label><b>Férfi</b></label>
+        <input type="radio" name="nem1" id="nem1">
+        <label><b>Nő</b></label>
+        <input type="radio" name="nem1" id="nem1">
+        <label><b>Egyéb</b></label>
+        <br>
+        <br>
+        <label>Születési hely</label>
+        <select name="hely1" id="hely1">
+            <option value="hely1">Nagyatád</option>
+            <option value="hely2">Pest</option>
+            <option value="hely3">Csurgó</option>
+        </select>
+        </fieldset>
+        <fieldset class="mezo">
+            <legend class="egyeb"><b>Egyéb</b></legend>
+            <label><b>Allergia</b></label>
+            <br>
+            <input type="checkbox" name="alerg1" id="alerg1" value="Mogyoró">
+            <label for="alerg1">Mogyoró</label>
+            <input type="checkbox" name="alerg2" id="alerg2" value="Mogyoró">
+            <label for="alerg2">Tejcukor</label>
+            <input type="checkbox" name="alerg3" id="alerg3" value="Mogyoró">
+            <label for="alerg3">Glutén</label>
+            <input type="checkbox" name="alerg4" id="alerg4" value="Mogyoró">
+            <label for="alerg4">Bullshit</label>
+            <br>
+            <input type="checkbox" name="alerg5" id="alerg5" value="Mogyoró">
+            <label for="alerg5">Ezüst</label>
+        </fieldset>
+        <fieldset class="mezo">
+           
+            <legend class="gombok"><b>Gombok</b></legend>
+        <div>
+            <input type="reset" name="res1" id="res1" value="Törlés">
+            <input type="submit" name="kuld1" id="kuld1" value="Mentés"> 
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
