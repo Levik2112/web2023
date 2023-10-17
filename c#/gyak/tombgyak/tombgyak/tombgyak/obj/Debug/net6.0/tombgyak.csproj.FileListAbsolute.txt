@@ -1,0 +1,14 @@
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\bin\Debug\net6.0\tombgyak.exe
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\bin\Debug\net6.0\tombgyak.deps.json
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\bin\Debug\net6.0\tombgyak.runtimeconfig.json
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\bin\Debug\net6.0\tombgyak.dll
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\bin\Debug\net6.0\tombgyak.pdb
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.AssemblyInfoInputs.cache
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.AssemblyInfo.cs
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.csproj.CoreCompileInputs.cache
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.dll
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\refint\tombgyak.dll
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.pdb
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\tombgyak.genruntimeconfig.cache
+H:\2023\c#\gyak\tombgyak\tombgyak\tombgyak\obj\Debug\net6.0\ref\tombgyak.dll
