@@ -1,5 +1,5 @@
 ﻿//csinaljunk egy fuggvenyt ami vissza ad a parametereknek megadott tombot
-
+/*
 int[] tombKeszit(int darab,int legkisebb,int legnagyobb)
 {
     int[] tomb = new int[darab];
@@ -70,8 +70,8 @@ else
 {
     Console.WriteLine("Nincs egyenlő szomszédos elem!");
 }
-
-
+*/
+/*
 void szakasKeres(int[] szamTomb)
 {
     int kezd = 0;
@@ -105,6 +105,58 @@ void szakasKeres(int[] szamTomb)
     } 
 }
 
+
 szakasKeres(szamok);
+*/
 
 //legnagyobb csokkeno sorozatot adja vissza és nem szigoruan csokkeno az egyenloseg még beleszamit
+//NEM JÓ
+/*
+void szakasKeres(int[] szamTomb)
+{
+    int kezd = 0;
+    int veg = 0;
+    int maxKezd = 0;
+    int maxVeg = 0;
+    for (int i = 1; i > szamTomb.Length; i++)
+    {
+        if (szamTomb[i - 1] < szamTomb[i])
+        {
+
+        }
+        else
+        {
+            veg = i - 1;
+            if (veg - kezd + 1 > maxVeg - maxKezd + 1)
+            {
+                maxVeg = veg;
+                maxKezd = kezd;
+            }
+            kezd = i;
+
+        }
+    }
+    Console.WriteLine();
+
+    Console.Write("A legnagyobb növekvő számsorozat {0} elemű ", maxVeg - maxKezd + 1);
+    for (int i = maxKezd; i < maxVeg + 1; i++)
+    {
+        Console.Write("{0}, ", szamTomb[i]);
+    }
+}
+*/
+//fuggveny ami vissza ad 1 10000tagu 4jegyu pozitiv száokat tartalmazo tombot
+//keressuk meg az olyan pontosan 3 tagu szakaszokat amik egymastol max 10 távolságra vannak
+
+int[] tombKeszit(int darab, int legkisebb, int legnagyobb)
+{
+    int[] tomb = new int[darab];
+    Random rand = new Random();
+    for (int i = 0; i < tomb.Length; i++)
+    {
+        tomb[i] = rand.Next(legkisebb, legnagyobb + 1);
+    }
+    return tomb;
+}
+int[] szamok = tombKeszit(10000, 1000, 9999);
+
