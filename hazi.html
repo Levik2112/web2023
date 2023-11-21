@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #reset{
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+    #random{
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+    .gombok{
+        width: 130px;
+        height: 130px;
+        margin-left: 46px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <button  class="gombok">Gomb 2</button>
+    <button  class="gombok">Gomb 1</button>
+    <button  class="gombok">Gomb 3</button>
+    <button  class="gombok">Gomb 4</button>
+    <button class="gombok" >Gomb 5</button>
+    <button  class="gombok">Gomb 6</button>
+    <button  class="gombok">Gomb 7</button>
+    <button  class="gombok">Gomb 8</button>
+    <button  class="gombok">Gomb 9</button>
+    <button  class="gombok">Gomb 10</button>
+    <button  class="gombok">Gomb 11</button>
+    <button  class="gombok">Gomb 12</button>
+    <button  class="gombok">Gomb 13</button>
+    <button  class="gombok">Gomb 14</button>
+    <button  class="gombok">Gomb 15</button>
+    <button  class="gombok">Gomb 16</button>
+    <button  class="gombok">Gomb 17</button>
+    <button  class="gombok">Gomb 18</button>
+    <button  class="gombok">Gomb 19</button>
+    <button  class="gombok">Gomb 20</button>
+    <button  class="gombok">Gomb 21</button>
+    <button  class="gombok">Gomb 22</button>
+    <button class="gombok" >Gomb 23</button>
+    <button  class="gombok">Gomb 24</button>
+    <button  class="gombok">Gomb 25</button>
+    <button  class="gombok">Gomb 26</button>
+    <button class="gombok">Gomb 27</button>
+    <button class="gombok">Gomb 28</button>
+    <button class="gombok">Gomb 29</button>
+    <button class="gombok">Gomb 30</button>
+    <button class="gombok">Gomb 31</button>
+    <button class="gombok">Gomb 32</button>
+    <button class="gombok" >Gomb 33</button>
+    <button class="gombok">Gomb 34</button>
+    <button class="gombok">Gomb 35</button>
+    <button class="gombok">Gomb 36</button>
+    <button class="gombok">Gomb 37</button>
+    <button class="gombok">Gomb 38</button>
+    <button class="gombok">Gomb 39</button>
+    <button class="gombok">Gomb 40</button>
+    <button class="gombok">Gomb 41</button>
+    <button class="gombok">Gomb 42</button>
+    <button class="gombok">Gomb 43</button>
+    <button class="gombok">Gomb 44</button>
+    <button class="gombok">Gomb 45</button>
+    <button class="gombok">Gomb 46</button>
+    <button class="gombok">Gomb 47</button>
+    <button class="gombok">Gomb 48</button>
+    <button class="gombok">Gomb 49</button>
+    <button class="gombok">Gomb 50</button>
+
+    
+    <br>
+    <button onclick="randomSzin()" id="random">Random szin</button>
+    <button onclick="reset()" id="reset">Reset</button>
+
+    <script>
+        let gombok = document.getElementsByClassName("gombok");
+        function gombos(){
+            const randColor = () =>  {
+             return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
+            }
+            console.log(randColor());
+            for(let i = 0;i<gombok.length;i++){
+                gombok[i].style.backgroundColor=randColor();
+            }     
+        }
+        function randomSzin(){
+            gombos();
+        }
+        function reset(){
+            for(let i = 0;i<gombok.length;i++){
+                gombok[i].style.backgroundColor="";
+            }     
+        }
+        
+    </script>
+</body>
+</html>
