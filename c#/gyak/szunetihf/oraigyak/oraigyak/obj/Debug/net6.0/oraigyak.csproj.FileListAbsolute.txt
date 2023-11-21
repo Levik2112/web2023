@@ -1,0 +1,14 @@
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\bin\Debug\net6.0\oraigyak.exe
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\bin\Debug\net6.0\oraigyak.deps.json
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\bin\Debug\net6.0\oraigyak.runtimeconfig.json
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\bin\Debug\net6.0\oraigyak.dll
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\bin\Debug\net6.0\oraigyak.pdb
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.AssemblyInfoInputs.cache
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.AssemblyInfo.cs
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.csproj.CoreCompileInputs.cache
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.dll
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\refint\oraigyak.dll
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.pdb
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\oraigyak.genruntimeconfig.cache
+H:\2023\c#\gyak\szunetihf\oraigyak\oraigyak\obj\Debug\net6.0\ref\oraigyak.dll

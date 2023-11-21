@@ -1,0 +1,14 @@
+H:\2023\c#\gyak\listagyak\lista\lista\bin\Debug\net6.0\lista.exe
+H:\2023\c#\gyak\listagyak\lista\lista\bin\Debug\net6.0\lista.deps.json
+H:\2023\c#\gyak\listagyak\lista\lista\bin\Debug\net6.0\lista.runtimeconfig.json
+H:\2023\c#\gyak\listagyak\lista\lista\bin\Debug\net6.0\lista.dll
+H:\2023\c#\gyak\listagyak\lista\lista\bin\Debug\net6.0\lista.pdb
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.AssemblyInfoInputs.cache
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.AssemblyInfo.cs
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.csproj.CoreCompileInputs.cache
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.dll
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\refint\lista.dll
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.pdb
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\lista.genruntimeconfig.cache
+H:\2023\c#\gyak\listagyak\lista\lista\obj\Debug\net6.0\ref\lista.dll
