@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function kattintas(elem){
+            let gombok = document.getElementsByTagName("button");
+            for(let i=0;i<gombok.length;i++){
+                gombok[i].style.backgroundColor="";
+                gombok[i].style.color="";
+                gombok[i].style.border="";
+                gombok[i].style.width="";
+                gombok[i].style.height="";
+            }
+            //HF: legyen 50db valamilyen elem egyforma az oldalban(gomb) legyen 1 gomb ami beszinezni mindegyiknek mas fajta szinre legyen egy masik gomb ami meg kitorli
+            //let elem = document.getElementById("kati");
+            console.log("kattintas volt");
+            //elem.innerHTML = "anyad";
+            elem.style.backgroundColor="red";
+            elem.style.color="white";
+            elem.style.border="2px solid black";
+            elem.style.width="200px";
+            elem.style.height="150px";
+            
+        }
+    </script>
+    <button id="kati" onclick="kattintas(this)">igen!</button>
+    <button id="jani" onclick="kattintas(this)">igen!</button>
+    <button onclick="kattintas(this)">gomb1</button>
+    <button onclick="kattintas(this)">gomb2</button>
+    <button onclick="kattintas(this)">gomb3</button>
+    <button onclick="kattintas(this)">gomb4</button>
+    <button onclick="kattintas(this)">gomb5</button>
+    <button onclick="kattintas(this)">gomb6</button>
+    <button onclick="kattintas(this)">gomb7</button>
+    <button onclick="kattintas(this)">gomb8</button>
+    <button onclick="kattintas(this)">gomb9</button>
+    <button onclick="kattintas(this)">gomb10</button>
+
+    
+    
+</body>
+</html>

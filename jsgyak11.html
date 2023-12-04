@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="button"]{
+            width: 100px;
+            height: 100px;
+            border:5px solid black;
+            background-color: blue;
+        }
+        div{
+            height: 100px;
+            width: 300px;
+            border: 5px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
+        body{
+            margin: auto;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        function gombnyomas(){
+            let be = document.getElementById("szoveg");
+            //console.dir(be);
+            let cim1 = document.getElementsByTagName("h1")
+            //console.dir(cim1);
+            cim1[0].innerHTML=be.value;
+            
+        }
+
+        function nyomas(ertek){
+            let k = document.getElementById("kijezlo");
+            //let k2 = document.querySelector("#kijelzo");
+            if(ertek==="C")
+            {
+                k.innerHTML="0";
+            }
+            else
+            {
+                if(k.innerHTML==="0")
+                {
+                    k.innerHTML="";
+                }
+                k.innerHTML+=ertek;
+            }
+            
+           
+        }
+        let before=0;
+        let muveletek = "+";
+        function muvelet(jel){
+            if(muveletek==="+"){
+                before+=parseInt(document.getElementById("kijezlo").innerHTML);
+                muveletek+=jel;
+            }
+            console.dir(jel);
+        }
+    </script>
+  
+    <form>
+    
+    </form>
+    <h1>Számológép</h1>
+    <div id="kijezlo">0</div>
+    <form>
+        <input type="button" value="7" id="" onclick="nyomas('7')">
+        <input type="button" value="8" id="" onclick="nyomas('8')">
+        <input type="button" value="9" id="" onclick="nyomas('9')"><br>
+        <input type="button" value="4" id="" onclick="nyomas('4')">
+        <input type="button" value="5" id="" onclick="nyomas('5')">
+        <input type="button" value="6" id="" onclick="nyomas('6')"><br>
+        <input type="button" value="1" id="" onclick="nyomas('1')">
+        <input type="button" value="2" id="" onclick="nyomas('2')">
+        <input type="button" value="3" id="" onclick="nyomas('3')"><br>
+        <input type="button" value="0" id="" onclick="nyomas('0')">
+        <input type="button" value="C" id="" onclick="nyomas('C')">
+        <input type="button" value="+" id="" onclick="muvelet('+')"><br>
+        <input type="button" value="-" id="" onclick="muvelet('-')">
+        <input type="button" value="*" id="" onclick="muvelet('*')">
+        <input type="button" value="/" id="" onclick="muvelet('/')">
+    </form>
+</body>
+</html>
