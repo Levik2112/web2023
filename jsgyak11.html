@@ -45,7 +45,7 @@
             }
             else
             {
-                if(k.innerHTML==="0")
+                if(k.innerHTML==="0" || before ==="=")
                 {
                     k.innerHTML="";
                 }
@@ -59,9 +59,27 @@
         function muvelet(jel){
             if(muveletek==="+"){
                 before+=parseInt(document.getElementById("kijezlo").innerHTML);
-                muveletek+=jel;
+                muveletek=jel;
             }
-            console.dir(jel);
+            else if(muveletek==="-"){
+                before-=parseInt(document.getElementById("kijezlo").innerHTML);
+                muveletek=jel;
+            }
+            else if(muveletek==="*"){
+                before*=parseInt(document.getElementById("kijezlo").innerHTML);
+                muveletek=jel;
+            }
+            else if(muveletek==="/"){
+                before/=parseInt(document.getElementById("kijezlo").innerHTML);
+                muveletek=jel;
+            }
+            document.getElementById("kijezlo").innerHTML ="0";
+            console.log(jel,before);
+
+            if(jel==="="){
+                document.getElementById("kijezlo").innerHTML=before;
+                
+            }
         }
     </script>
   
@@ -82,7 +100,8 @@
         <input type="button" value="3" id="" onclick="nyomas('3')"><br>
         <input type="button" value="0" id="" onclick="nyomas('0')">
         <input type="button" value="C" id="" onclick="nyomas('C')">
-        <input type="button" value="+" id="" onclick="muvelet('+')"><br>
+        <input type="button" value="=" id="" onclick="muvelet('=')"><br>
+        <input type="button" value="+" id="" onclick="muvelet('+')">
         <input type="button" value="-" id="" onclick="muvelet('-')">
         <input type="button" value="*" id="" onclick="muvelet('*')">
         <input type="button" value="/" id="" onclick="muvelet('/')">
