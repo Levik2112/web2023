@@ -1,0 +1,14 @@
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\bin\Debug\net6.0\fejvagyiras.exe
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\bin\Debug\net6.0\fejvagyiras.deps.json
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\bin\Debug\net6.0\fejvagyiras.runtimeconfig.json
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\bin\Debug\net6.0\fejvagyiras.dll
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\bin\Debug\net6.0\fejvagyiras.pdb
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.AssemblyInfoInputs.cache
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.AssemblyInfo.cs
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.csproj.CoreCompileInputs.cache
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.dll
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\refint\fejvagyiras.dll
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.pdb
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\fejvagyiras.genruntimeconfig.cache
+H:\2023\c#\gyak\fejviras\fejvagyiras\fejvagyiras\obj\Debug\net6.0\ref\fejvagyiras.dll
