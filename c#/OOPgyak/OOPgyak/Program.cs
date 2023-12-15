@@ -1,4 +1,6 @@
-﻿class auto
+﻿using System;
+
+class auto
 {
     public int kerekSzam = 4;
     public void dudal()
@@ -14,7 +16,15 @@
         }
         set
         {
-            tulaj = value;
+            if (value == "Bence")
+            {
+                Console.WriteLine("EZT NEM");
+            }
+            else
+            {
+                tulaj = value;
+            }
+            
         }
     }
 }
@@ -26,6 +36,10 @@ class Program
         Console.WriteLine(kocsi.kerekSzam);
         kocsi.dudal();
         kocsi.tulajdonos = "gabui";
+        Console.WriteLine(kocsi.tulajdonos);
+        kocsi.tulajdonos = "Bence";
+        Console.WriteLine(kocsi.tulajdonos);
+        kocsi.tulajdonos = "Ákos";
         Console.WriteLine(kocsi.tulajdonos);
     }
 }

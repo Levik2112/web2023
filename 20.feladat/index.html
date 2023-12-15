@@ -3,43 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20.feladat</title>
-    <style>
-        #demo{
-            width: 100px;
-            height: 50px;
-            border: 1px solid black;
-            text-align: center;
-            justify-content: center;
-            vertical-align: middle;
-            
-            
-        }
-    </style>
+    <title>18.feladat</title>
 </head>
 <body>
-    <h1>Számláló oldal</h1>
-    <!--Készítsetek egy számláló honlapot. A holnapon legyen egy nagyobb szám, ami a honlap megnyitásakor 0, és minden másodpercben egyel nő. A szám színe minden 10. növekedést követően változzon meg.-->
-        <script>
-            window.setInterval(function(){
-                    const randColor = () =>  {
-                return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
-                }
-                
-                
+    <h1>Képnézegető honlap</h1>
+    <!--Készítsetek egy képnézegető honlapot. Az oldal tartalmazzon 4 képet, az oldal tetején, kicsi méretben megjelenítve. A kis kép valamelyikére kattintva a neki 
+        megfelelő nagyobb méretű párja jelenjen meg a kis képek alatt. Mindig csak egy kép legyen nagy méretben látható.-->
 
-            },10000);
-            
-            console.log(randColor());
-            let szam = 0;
-            window.setInterval(
-            function() {
-                szam+=1;
-                let valami = document.getElementById("demo").innerHTML =szam ;
-
-             }, 1000);
-        </script>
-        <div id="demo"></div>
-    
+    <img src="" alt="">
 </body>
 </html>

@@ -1,0 +1,14 @@
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\bin\Debug\net6.0\oop2023.12.15.exe
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\bin\Debug\net6.0\oop2023.12.15.deps.json
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\bin\Debug\net6.0\oop2023.12.15.runtimeconfig.json
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\bin\Debug\net6.0\oop2023.12.15.dll
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\bin\Debug\net6.0\oop2023.12.15.pdb
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.AssemblyInfoInputs.cache
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.AssemblyInfo.cs
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.csproj.CoreCompileInputs.cache
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.dll
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\refint\oop2023.12.15.dll
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.pdb
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\oop2023.12.15.genruntimeconfig.cache
+H:\2023\c#\oop2023.12.15\oop2023.12.15\oop2023.12.15\obj\Debug\net6.0\ref\oop2023.12.15.dll

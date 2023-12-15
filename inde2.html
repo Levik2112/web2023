@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #teamName {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div id="teamName"></div>
+
+  <script>
+    // Csapat neve és mottója
+    const teamName = "kiralyok";
+    const motto = "Motto123"; // A rövid mottó, mely maximum 10 karakter lehet
+
+    // Elemek elérése
+    const teamNameElement = document.getElementById("teamName");
+
+    // Szöveg beállítása
+    teamNameElement.textContent = `${teamName} - ${motto}`;
+
+    // Idő múlásának követése és felirat animálása
+    let time = 0;
+    setInterval(() => {
+      // Szín generálása HSL formátumban (hue, saturation, lightness)
+      const hue = (time * 10) % 360; // Az idő múlásával változó szín
+      const saturation = '100%';
+      const lightness = '50%';
+      const color = `hsl(${hue}, ${saturation}, ${lightness})`;
+
+      // Szöveg színének beállítása
+      teamNameElement.style.color = color;
+
+      // Idő növelése
+      time++;
+    }, 100); // 100 millimás (0.1 másodperc) időközönként
+
+    // Felirat mozgatása
+    let positionX = 0;
+    setInterval(() => {
+      // Mozgatás
+      positionX = (positionX + 1) % (window.innerWidth - teamNameElement.clientWidth);
+
+      // CSS transform alkalmazása a pozícióhoz
+      teamNameElement.style.transform = `translate(-50%, -50%) translateX(${positionX}px)`;
+    }, 10); // 10 millimás (0.01 másodperc) időközönként
+  </script>
+</body>
+</html>

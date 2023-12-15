@@ -1,0 +1,33 @@
+<!--Készítsetek egy honlapot, ami egy jármű műszerfalát utánozza. Az oldalon legyen néhány kijelző: 
+Egy, ami az aktuális sebességet jeleníti meg, egy ami a fordulatszámát, egy ami a sebességváltó fokozatát, és egy ami az üzemanyag szintjét. 
+Ezek lehetnek egyszerűen számok is.
+Legyen két gomb, amik segítségével a jármű sebességét lehet csökkenteni vagy növelni (mondjuk 10km/h-val).
+Legyen két gomb, amivel a sebességváltót lehet állítani egyel magasabb vagy alacsonyabb sebességbe.
+A jármű fordulatszámát úgy kell megjeleníteni, hogy ugyanakkora járműsebesség mellett a váltó nagyobb fokozata kisebb fordulatszámot eredményezzen. (A járműnek 3-as fokozatban nagyobb fordulatszám kell az 50km/h-hoz, mint 4-es fokozatban.) Ugyanakkor ha a váltót nem állítjuk, akkor a sebesség növekedésével arányosan változzon a fordulatszám.
+Az üzemanyag szintje az idő telésével fokozatosan csökkenjen. A csökkenés mértéke a fordulatszámtól függjön.
+Legyen egy gomb, amivel tankolni tudunk. Ilyenkor az üzemanyag tartályt teletöltjük, és a program írja ki, hogy mennyi üzemanyagot tankoltunk.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sebesseg">0</div>
+    <button  class="nov" onclick="sebNov()">+10 km/h</button>
+    <button  class="csok">-10 km/h</button>
+    <script>
+        let sebesseg = document.getElementById("sebesseg");
+        function sebNov(){
+            let value = 0;
+            value+=10;
+            sebesseg.innerHTML+=value;
+        }
+    </script>
+        
+</body>
+</html>
