@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent</title>
+    <link rel="stylesheet" href="karacsonyfa.css">
+</head>
+<body onload="init()">
+    <script>
+        function init(){
+            console.log("asd");
+            for(let i =0;i<24;i++){
+                gombdisz()
+            }
+            gombdisz();
+        }
+        function gombdisz(){
+            let maxH = 600;
+            let maxW = 465;
+            let magassag = randomSzam(0,maxH);
+            let arany =maxW/maxH*magassag;
+            
+
+            let elem=document.createElement("img");
+            elem.src="karidisz.png";
+            elem.style.height=randomSzam(30,100)+"px";
+            elem.style.position="absolute";
+            let szelesseg = (maxW+randomSzam(-1*arany,arany))/2;
+            elem.style.left=randomSzam(0,300)+"px";
+            elem.style.top=randomSzam(0,600)+"px";
+            document.getElementById("fenyo").appendChild(elem);
+            //ha ketszer ranyomunk tunjon el és jojjon valami unnepi szoveg 24db jol elhelyezve stb
+        }
+        function randomSzam(min,max){
+            return Math.random() * (max - min+1) + min;
+
+        }
+    </script>
+    <div id="fenyo"></div>
+</body>
+</html>
