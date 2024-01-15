@@ -24,7 +24,13 @@
 
         }
         function kivalaszt(elem){
-            elem.style.border="1px solid red";
+            if(elem.style.border!==""){
+                elem.style.border="";
+            }
+            else{
+                elem.style.border="1px solid red";
+            }
+            
         }
 
     </script>
