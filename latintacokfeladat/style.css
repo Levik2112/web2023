@@ -1,0 +1,26 @@
+body{
+    background-color: deepskyblue;
+}
+.gomb{
+    border: 1px solid black;
+    width:80px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;  
+    background-color: blueviolet;
+    
+}
+.gomb:hover{
+    background-color: green;
+}
+
+.megoldas{
+    margin: 10px;
+    color: darkgreen;
+    
+    
+}
+.cim{
+    color: brown;
+    text-decoration: underline;
+}
