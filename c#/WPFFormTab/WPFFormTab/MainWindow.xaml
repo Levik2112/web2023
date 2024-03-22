@@ -1,0 +1,57 @@
+﻿<Window x:Class="wpf0301.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf0301"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="426" Width="785">
+    <Grid>
+        <TabControl x:Name="tabControl">
+            <TabItem Header="Első fül">
+                <Grid Background="#FFE5E5E5" Margin="180,61,0,0" Height="327" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="139*"/>
+                        <ColumnDefinition Width="38*"/>
+                        <ColumnDefinition Width="602*"/>
+                    </Grid.ColumnDefinitions>
+                    <WrapPanel Grid.Column="2">
+                        <RadioButton x:Name="radioButton" Content="RadioButton"/>
+                        <RadioButton x:Name="radioButton1" Content="RadioButton"/>
+                    </WrapPanel>
+                    <RadioButton x:Name="radioButton2" Grid.Column="2" Content="RadioButton" HorizontalAlignment="Left" Margin="179,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.433,-8.212"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Második fül">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="135*"/>
+                        <ColumnDefinition Width="14*"/>
+                        <ColumnDefinition Width="16*"/>
+                        <ColumnDefinition Width="236*"/>
+                        <ColumnDefinition Width="354*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Margin="0,0,181,0" Background="#FF268A3A" Grid.ColumnSpan="6"/>
+                    <WrapPanel Grid.Column="5" Background="#FFD81B1B" Margin="60,0,0,196" Grid.ColumnSpan="2"/>
+                    <DockPanel LastChildFill="False" Background="#FF133BDC" Margin="60,191,0,-12" Grid.ColumnSpan="2" Grid.Column="5"/>
+                </Grid>
+            </TabItem>
+            <TabItem HorizontalAlignment="Center" Height="20" Header="Harmadik fül" VerticalAlignment="Center" Width="90">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="153*"/>
+                        <ColumnDefinition Width="641*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Height="87" Width="103">
+                        <Label x:Name="label" Content="Label"/>
+                        <CheckBox x:Name="checkBox1" Content="CheckBox"/>
+                        <CheckBox x:Name="checkBox" Content="CheckBox"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+H:\2023\c#\fogado\fogado\bin\Debug\net6.0\fogado.exe
+H:\2023\c#\fogado\fogado\bin\Debug\net6.0\fogado.deps.json
+H:\2023\c#\fogado\fogado\bin\Debug\net6.0\fogado.runtimeconfig.json
+H:\2023\c#\fogado\fogado\bin\Debug\net6.0\fogado.dll
+H:\2023\c#\fogado\fogado\bin\Debug\net6.0\fogado.pdb
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.AssemblyInfoInputs.cache
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.AssemblyInfo.cs
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.csproj.CoreCompileInputs.cache
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.dll
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\refint\fogado.dll
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.pdb
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\fogado.genruntimeconfig.cache
+H:\2023\c#\fogado\fogado\obj\Debug\net6.0\ref\fogado.dll

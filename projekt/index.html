@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Robot Teknős</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div id="kartyaTartoFo" style="display: none;">
+		<div><div id="kartyaTarto1">Játékos 1: <div>asd</div><div><img src="kepek/kekelore.png" style="width: 100px; height: 100px;" alt=""></div><div>asd</div></div></div>
+		<div><div id="kartyaTarto2">A Kártyáid</div></div>
+		<div><div id="kartyaTarto3">Játékos 2:</div></div>
+		<div><div id="kartyaTarto4">Játékos 3:</div></div>
+	</div>
+
+		
+	<table id='jatektabla' cellspacing=0>
+		
+		<tr id="sarkok">
+			<td id="tablaSarokBalFelso"></td>	
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td id="tablaSarokJobbFelso"></td>
+		</tr>
+	
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td id="tablaKozep1"></td>
+			<td id="tablaKozep2"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td id="tablaKozep3"></td>
+			<td id="tablaKozep4"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	
+		<tr id="sarkok">
+			<td id="tablaSarokBalAlso"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td id="tablaSarokJobbAlso"></td>
+		</tr>
+	
+	</table>
+	
+	<div id="szulo" >
+		<button class="button" type="button" id="gomb" onclick="jatek_kezdes()">
+			<span class="text">Játék</span>		
+		  </button>
+		  <button class="button2" type="button">
+			<span class="text">Nehézségi szint</span>
+		  </button>
+		  
+		  
+	</div>
+	<div id="valasztas">
+		<div id="valasztas_div" style="display: none;">
+			<h1 id="szov" >Válassz teknőst:</h1>
+			<img src="kepek/zoldteknosvagott.png" onclick="teknosValaszto('kep1')" >
+			<img src="kepek/lilateknosvagott.png" onclick="teknosValaszto('kep2')">
+			<img src="kepek/pirosteknosvagott.png" onclick="teknosValaszto('kep3')" >
+			<img src="kepek/kekteknosvagott.png" onclick="teknosValaszto('kep4')">
+			
+		</div>
+	</div>
+
+</body>
+
+</html>

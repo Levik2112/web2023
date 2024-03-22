@@ -1,0 +1,14 @@
+H:\2023\c#\interfaceproba\interfaceproba\bin\Debug\net6.0\interfaceproba.exe
+H:\2023\c#\interfaceproba\interfaceproba\bin\Debug\net6.0\interfaceproba.deps.json
+H:\2023\c#\interfaceproba\interfaceproba\bin\Debug\net6.0\interfaceproba.runtimeconfig.json
+H:\2023\c#\interfaceproba\interfaceproba\bin\Debug\net6.0\interfaceproba.dll
+H:\2023\c#\interfaceproba\interfaceproba\bin\Debug\net6.0\interfaceproba.pdb
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.GeneratedMSBuildEditorConfig.editorconfig
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.AssemblyInfoInputs.cache
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.AssemblyInfo.cs
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.csproj.CoreCompileInputs.cache
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.dll
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\refint\interfaceproba.dll
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.pdb
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\interfaceproba.genruntimeconfig.cache
+H:\2023\c#\interfaceproba\interfaceproba\obj\Debug\net6.0\ref\interfaceproba.dll

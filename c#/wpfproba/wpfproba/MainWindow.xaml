@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfproba"
+        xmlns:VisualBasic="clr-namespace:Microsoft.VisualBasic;assembly=Microsoft.VisualBasic.Core" x:Class="wpfproba.MainWindow"
+        mc:Ignorable="d"
+        Title="Főablakl" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="gomb" HorizontalAlignment="Left" Margin="557,263,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Image x:Name="kep" Height="100" Width="100" Source="/kep4.png" Margin="527,80,173,254"/>
+        <Slider x:Name="csuszka" HorizontalAlignment="Left" Margin="231,323,0,0" VerticalAlignment="Top" Width="120" ValueChanged="Slider_ValueChanged" LargeChange="0.1" Maximum="1" TickFrequency="0.1"/>
+
+
+
+    </Grid>
+</Window>
