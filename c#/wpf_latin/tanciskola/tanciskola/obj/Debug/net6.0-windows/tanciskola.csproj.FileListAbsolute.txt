@@ -18,3 +18,8 @@ H:\2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\refint\tanci
 H:\2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\tanciskola.pdb
 H:\2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\tanciskola.genruntimeconfig.cache
 H:\2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\ref\tanciskola.dll
+D:\web2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\App.g.cs
+D:\web2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\tanciskola_MarkupCompile.cache
+D:\web2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\tanciskola.dll
+D:\web2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\refint\tanciskola.dll
+D:\web2023\c#\wpf_latin\tanciskola\tanciskola\obj\Debug\net6.0-windows\tanciskola.pdb

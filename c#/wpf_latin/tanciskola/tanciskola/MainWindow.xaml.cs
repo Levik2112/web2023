@@ -2,10 +2,19 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
-namespace tanciskola
+namespace tanciskolawpf
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,11 +28,6 @@ namespace tanciskola
 
         List<Par> tancok = new List<Par>();
 
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             StreamReader olvas = new StreamReader("tancrend.txt");
@@ -34,98 +38,94 @@ namespace tanciskola
                 {
                     sorok[i] = olvas.ReadLine();
                 }
-
                 tancok.Add(new Par(sorok[0], sorok[1], sorok[2]));
             }
-            
+
             olvas.Close();
-
-            List<string> tancnevek = new List<string>();
-            for (int i = 0;i < tancok.Count; i++)
-            {
-                if (!tancnevek.Contains(tancok[i].tanc))
-                {
-                    tancnevek.Add(tancnevek[i]);
-                }
-            }
-            listbox1.ItemsSource = tancnevek;
-            listbox2.ItemsSource = tancnevek;
         }
 
-        private void gomb_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            string szoveg = "Első tánc: " + tancok[0].tanc + " az utolsó tánc: " + tancok[tancok.Count-1].tanc;
-            textblock.Text = szoveg;
+            textBlock.Text = "Első tánc: " + tancok[0].tanc + ", utolsó tánc: " + tancok.Last().tanc + ".";
         }
 
-        private void gomb2_Click(object sender, RoutedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            textbloc2.Text = "A samba-t" + tancSzamol("samba") + " pár táncolta."; 
-        }
 
-        private int tancSzamol(string tanc)
+        }
+        private int tancszamol(string nev)
         {
             int db = 0;
             for (int i = 0; i < tancok.Count; i++)
             {
-                if (tancok[i].tanc == tanc)
-                {
+                if (tancok[i].tanc == nev)
                     db++;
-                }
             }
-
             return db;
         }
 
-        private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void button2_Click(object sender, RoutedEventArgs e)
         {
-            ListBox lb = sender as ListBox;
-            label2.Content=tancSzamol(lb.SelectedItem.ToString());
-        }
-
-        private void listbox2_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            ListBox lb = sender as ListBox;
-            string partner = "Ilyet nem táncolt!";
-            //label2.Content = tancSzamol(lb.SelectedItem.ToString());
-            for (int i = 0; i < tancok.Count; i++)
-            {
-                if (tancok[i].lany == "Vilma")
-                {
-                    if (tancok[i].tanc== lb.SelectedItem.ToString())
-                    {
-                        partner = tancok[i].fiu;
-                    }
-                    
-                }
-            }
-            label5.Content = partner;
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            List<string> fiuk = new List<string>();
             List<string> lanyok = new List<string>();
+            List<string> fiuk = new List<string>();
 
             for (int i = 0; i < tancok.Count; i++)
             {
+                if (!lanyok.Contains(tancok[i].lany))
+                {
+                    lanyok.Add(tancok[i].lany);
+                }
                 if (!fiuk.Contains(tancok[i].fiu))
                 {
                     fiuk.Add(tancok[i].fiu);
                 }
-                if (!lanyok.Contains(tancok[i].lany)){
-                    lanyok.Add(tancok[i].lany);
+            }
+
+           
+
+            //xml-ben kiiras file-ba
+            /*
+            <?xml version="1.0" encoding="UTF-8"?>
+
+            <tancosok>
+                <fiuk>
+                    <nev>...</nev>
+                    <nev>...</nev>
+                    <nev>...</nev>
+                </fiuk>
+            </tancosok>
+             */
+        }
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            Dictionary<string, int> statfiuk = new Dictionary<string, int>();
+            Dictionary<string, int> statlanyok = new Dictionary<string, int>();
+
+            for (int i = 0; i < tancok.Count; i++)
+            {
+                if (!statfiuk.ContainsKey(tancok[i].fiu))
+                {
+                    statfiuk.Add(tancok[i].fiu, 1);
+                }
+                else
+                {
+                    statfiuk[tancok[i].fiu] += 1;
+                }
+                if (!statlanyok.ContainsKey(tancok[i].lany))
+                {
+                    statlanyok.Add(tancok[i].lany, 1);
+                }
+                else
+                {
+                    statlanyok[tancok[i].lany] += 1;
                 }
             }
-            StreamWriter ir = new StreamWriter("szereplok.txt");
-            ir.WriteLine("Lányok: {0}", String.Join(", ",lanyok));
-            ir.WriteLine("Fiúk: {0}", String.Join(", ", fiuk));
-            /*tancosok
-             fiuk
-            nev
-            tancosok
-            */
-            ir.Close();
+
+            int fiukmax = statfiuk.Values.Max();
+            int  lanyokmax = statlanyok.Values.Max();
+
+            textBlock3.Text = "A legtöbbet szereplet fiu: " + fiukmax;
+            textBlock3.Text = "A legtöbbet szereplet lany: " + lanyokmax;
         }
     }
 }
