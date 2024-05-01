@@ -1,0 +1,23 @@
+﻿<Window x:Class="teszt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:teszt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-49,-35">
+        <TextBox x:Name="textb" HorizontalAlignment="Left" Margin="140,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Küldés" HorizontalAlignment="Left" Margin="140,245,0,0" VerticalAlignment="Top" Click="Button_Click" Height="31" Width="105"/>
+        <TextBox x:Name="textb2" HorizontalAlignment="Left" Margin="140,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textb3" HorizontalAlignment="Left" Margin="140,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID Szám:" HorizontalAlignment="Left" Margin="80,119,0,0" VerticalAlignment="Top"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Margin="80,156,0,0" VerticalAlignment="Top"/>
+        <Label Content="Felhszanáló:" HorizontalAlignment="Left" Margin="61,195,0,0" VerticalAlignment="Top"/>
+        <Button Content="Frissités" HorizontalAlignment="Left" Margin="290,245,0,0" VerticalAlignment="Top" Height="32" Width="110" Click="Button_Click_1"/>
+        <Button Content="Törlés" HorizontalAlignment="Left" Margin="200,310,0,0" VerticalAlignment="Top" Height="32" Width="127" Click="Button_Click_2"/>
+        <Button Content="Keresés" HorizontalAlignment="Left" Margin="200,368,0,0" VerticalAlignment="Top" Height="35" Width="122" Click="Button_Click_3"/>
+        <DataGrid x:Name="datagrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="405,101,51,31"/>
+
+    </Grid>
+</Window>
