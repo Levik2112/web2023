@@ -9,61 +9,56 @@
 
 
     </head>
-    <body onload="randomUser()">
+    <body>
         <div id="keke"> </div>
         <br>
         <div id="keke2"> </div>
-        <select  id="nat"></select>
+        <select  id="nat" style="text-transform: lowercase;"></select>
+        
 
         <script>
-            function randomUser()
-            {
+             const natlist = ["AU", "BR", "CA", "CH", "DE", "DK", "ES", "FI", "FR", "GB", "IE", "IN", "IR", "MX", "NL", "NO", "NZ", "RS", "TR", "UA", "US"];
+            
+            const select = document.getElementById("nat");
+
+            natlist.forEach(function(value){
+                const elem = document.createElement("option");
+                elem.innerHTML = value;
+                elem.value = value;
                 
-            }
-            function olvas()
-            {
-                var olvaso = new XMLHttpRequest()
-                olvaso.onload = function()
-                {
-                    document.getElementById("keke").innerHTML = olvaso.responseText
-                }  
-                olvaso.open("GET","proba.txt")
-                olvaso.send()
-            }
-            //olvas();
-            function olvas2()
-            {
-                var olvaso = new XMLHttpRequest()
-                olvaso.onload = function()
-                {
-                    const valasz = JSON.parse(this.response)
-                    document.getElementById("keke2").innerHTML = "<h1>"+valasz.nev+"</h1>"+"<h3>"+valasz.cim+"</h3>"
-                }  
-                olvaso.open("GET","proba2.json")
-                olvaso.send()
-            }
-            //olvas2();
+                //console.log(elem)
+                select.appendChild(elem);
+            });
+
+            
+            
             
 
+            select.addEventListener("change", function(){
+                randomUser()
+                //console.log("asd "+ select.value)
+                //console.log("https://randomuser.me/api/?nat=GB")
+            })
             function randomUser()
             {
-
+                //+'"'+select.value+'"'
                 const xhr= new XMLHttpRequest();
                 xhr.onload = function()
                 {
                     const valasz = JSON.parse(this.response);
-                    //console.log(valasz)
+                    console.log(valasz.results[0].nat)
                     //document.getElementById("keke").innerHTML = valasz.results[0].name.title+" "+valasz.results[0].name.first+" "+valasz.results[0].name.last;
                     const kep = document.createElement("img");
                     kep.src=valasz.results[0].picture.large;
                     //document.getElementById("keke").appendChild(kep)
-                    document.getElementById("keke").appendChild(cardKeszit(valasz.results[0].name.title,valasz.results[0].name.first,valasz.results[0].name.last,valasz.results[0].picture.large,valasz.results[0].email,valasz.results[0].phone,valasz.results[0].login.username))
+                    document.getElementById("keke").appendChild(cardKeszit(valasz.results[0].name.title,valasz.results[0].name.first,valasz.results[0].name.last,valasz.results[0].picture.large,valasz.results[0].email,valasz.results[0].phone,valasz.results[0].login.username,valasz.results[0].nat))
                 };
-                xhr.open("get","https://randomuser.me/api/");
+                xhr.open("get","https://randomuser.me/api/?nat="+select.value);
                 xhr.send();
+                
             }
 
-            function cardKeszit(title,first,last,picture,email,phone,user)
+            function cardKeszit(title,first,last,picture,email,phone,user,nat)
             {
                 //title,first,last,picture,email,telephone,user
                 const kartya = document.createElement("div");
@@ -100,27 +95,17 @@
                 kartyaUser.innerHTML = user;
                 kartyaTest.append(kartyaUser)
 
-                
+                const nati = document.createElement("p")
+                nati.classList.add("card-text")
+                nati.innerHTML = nat;
+                kartyaTest.append(nati)
                 
 
 
 
                 return kartya
             }
-            const natlist = ["AU", "BR", "CA", "CH", "DE", "DK", "ES", "FI", "FR", "GB", "IE", "IN", "IR", "MX", "NL", "NO", "NZ", "RS", "TR", "UA", "US"];
-            
-            const select = document.getElementById("nat");
-
-            natlist.forEach(function(value){
-                const elem = document.createElement("option");
-                elem.innerHTML = value;
-                elem.value = value;
-                select.appendChild(elem);
-            });
-
-            select.addEventListener("change", function(){
-                console.log(this.value);
-            })
+           
                     
 
 
