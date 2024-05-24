@@ -20,3 +20,6 @@ for (int i = 0; i < eredmenyek.Count; i++)
 }
 Console.WriteLine("4. Feladat");
 Console.WriteLine("Arany: {0}\nEzüst: {1}\nBronz: {2}\nÖsszesen: {3}", ermekSzama[1], ermekSzama[2], ermekSzama[3], ermekSzama[1]+ermekSzama[2]+ermekSzama[3]);
+
+Console.WriteLine("5 Feladat");
+Console.WriteLine("olimpiai pontok száma: {0}");
