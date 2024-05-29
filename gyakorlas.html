@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petőfi Sándor</title>
+</head>
+<body onload="betolto()">
+    <div id="asd"></div>
+    <script>
+        function betolto(){
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function(){
+                document.getElementById("asd").innerHTML = this.responseText;
+            }
+            
+            xhttp.open("get","https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1845-E82B/anyam-anyam-E8FC/");
+            
+            xhttp.send();
+            
+        }
+        
+    </script>
+</body>
+</html>

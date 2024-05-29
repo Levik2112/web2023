@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObjGyak</title>
+</head>
+<body>
+    <script>
+        class auto{
+            constructor(nev,szin,evjarat){
+                this.nev=nev;
+                this.szin=szin;
+                this.evjarat = evjarat;
+
+            }
+            get tulajdonos(){
+                return this._tulaj;
+            }
+            set tulajdonos(nev){
+                this._tulaj=nev[0].toUpperCase()+nev.substring(1).toLowerCase();
+
+            }
+
+            static motorhang(){
+                if(tipus==="benzines"){
+                    return "Vrum-vrum";
+                }
+                else if(tipus==="dizel"){
+                    return "ttktkt";
+                }
+                else if(tipus==="elektromos"){
+                    return "iiiiiiii";
+                }
+                return "Nincs motor,kutason keresd";
+                
+            }
+        }
+        const a1 = new auto("bmw","fekete",2025);
+        console.log(a1.nev);
+        console.log(a1.tulajdonos);
+        a1.tulajdonos="bence";
+        console.log(a1.tulajdonos)
+       
+        const a2=new auto("bmw","piros",1992)
+        console.log(auto.motorhang())
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+﻿<Window x:Class="tort.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tort"
+        mc:Ignorable="d"
+        Title="Törtek" Height="319" Width="500">
+    <Grid>
+        <TabControl>
+            <TabItem Header="1.+ 3.feladat">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="35*"/>
+                        <ColumnDefinition Width="356*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Számláló:" HorizontalAlignment="Left" Margin="5,55,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <Label Content="Nevező:" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2" Width="59"/>
+                    <TextBox x:Name="textbox1" Grid.Column="2" HorizontalAlignment="Left" Margin="19,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                    <TextBox x:Name="textbox2" Grid.Column="2" HorizontalAlignment="Left" Margin="19,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Separator Grid.Column="2" HorizontalAlignment="Left" Margin="16,82,0,0" VerticalAlignment="Top" Height="10" Width="126"/>
+                    <TextBlock x:Name="eredmeny" Grid.Column="2" HorizontalAlignment="Left" Margin="207,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="66"><Run Language="hu-hu" Text="eredmény"/></TextBlock>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="166,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="="/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"><Run Language="hu-hu" Text="Legegyszerűbb alak:"/></TextBlock>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="100,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="104,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                    <Separator Grid.Column="2" HorizontalAlignment="Left" Margin="89,184,0,0" VerticalAlignment="Top" Height="1" RenderTransformOrigin="0.5,0.5" Width="67">
+                        <Separator.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Separator.RenderTransform>
+                    </Separator>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="217,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="221,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                    <Separator Grid.Column="2" HorizontalAlignment="Left" Margin="207,184,0,0" VerticalAlignment="Top" Width="72"/>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="180,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="="/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="4. feladat">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Számláló:" HorizontalAlignment="Left" Margin="11,97,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Nevező:" HorizontalAlignment="Left" Margin="17,55,0,0" VerticalAlignment="Top" Width="59"/>
+                    <TextBox HorizontalAlignment="Left" Margin="70,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <TextBox HorizontalAlignment="Left" Margin="70,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Separator HorizontalAlignment="Left" Margin="67,82,0,0" VerticalAlignment="Top" Height="10" Width="126"/>
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*"/>
+                            <ColumnDefinition Width="35*"/>
+                            <ColumnDefinition Width="356*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Számláló:" HorizontalAlignment="Left" Margin="4,97,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+                        <Label Content="Nevező:" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2" Width="59"/>
+                        <TextBox Grid.Column="2" HorizontalAlignment="Left" Margin="19,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                        <TextBox Grid.Column="2" HorizontalAlignment="Left" Margin="19,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                        <Separator Grid.Column="2" HorizontalAlignment="Left" Margin="16,82,0,0" VerticalAlignment="Top" Height="10" Width="126"/>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="207,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="66"><Run Language="hu-hu" Text="eredmény"/></TextBlock>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="166,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="="/></TextBlock>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="100,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="104,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                        <Separator Grid.Column="2" HorizontalAlignment="Left" Margin="89,184,0,0" VerticalAlignment="Top" Height="1" RenderTransformOrigin="0.5,0.5" Width="67">
+                            <Separator.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleY="-1"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Separator.RenderTransform>
+                        </Separator>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="217,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="221,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                        <Separator Grid.Column="2" HorizontalAlignment="Left" Margin="207,184,0,0" VerticalAlignment="Top" Width="72"/>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="180,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="="/></TextBlock>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="6,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="10,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                        <Separator Grid.Column="1" HorizontalAlignment="Left" Margin="39,183,0,0" VerticalAlignment="Top" Height="2" RenderTransformOrigin="0.5,0.5" Width="67" Grid.ColumnSpan="2">
+                            <Separator.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleY="-1"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Separator.RenderTransform>
+                        </Separator>
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="74,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="x"/></TextBlock>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem HorizontalAlignment="Center" Height="20" Header="6. feladat" VerticalAlignment="Center" Width="54">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="197*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="51,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="55,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="168,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="172,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="131,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="="/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="57,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"><Run Language="hu-hu" Text="számláló"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="61,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="nevező"/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="25,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="x"/></TextBlock>
+
+                </Grid>
+            </TabItem>
+            <TabItem HorizontalAlignment="Center" Height="20" Header="7. feladat" VerticalAlignment="Center" Width="54">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="751*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="3" Content="Csináld" HorizontalAlignment="Left" Margin="74,0,0,0" VerticalAlignment="Center" Height="133" Width="292" FontSize="24"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>

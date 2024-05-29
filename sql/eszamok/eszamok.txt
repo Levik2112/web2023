@@ -1,0 +1,8 @@
+
+create DATABASE eszamok DEFAULT charset =utf8 collate utf8_hungarian_ci;
+
+select nev from adalek where mellekhatas order by nev;
+
+select distinct fnev from funkcio 
+inner join adalek on funkcio.kod=adalek.kod
+ where adalek.nev like '%karamell%';

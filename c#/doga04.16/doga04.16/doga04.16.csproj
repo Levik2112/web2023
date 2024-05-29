@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>doga04._16</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Képernyőkép 2024-04-16 131225.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Képernyőkép 2024-04-16 131225.png" />
+  </ItemGroup>
+
+</Project>

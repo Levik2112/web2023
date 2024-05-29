@@ -1,0 +1,248 @@
+table:nth-child(even){
+  border: 1px solid black;
+  width: 585px;
+  height:585px;
+}
+
+td{
+  border: 1px solid black;
+}
+#jatektabla{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 580px;
+  background-image: url(kepek/vegleges.png);
+  z-index: -1;
+  background-position: center;
+}
+
+
+
+#kezdes{
+  position: absolute;
+  top: 85%;
+  left: 45.5%;
+  transform: translate(-50%, -50%);
+  rotate: -0.9deg;
+
+  background-color: #04AA6D; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+  
+}
+#nehezseg{
+  position: absolute;
+  top: 84.70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  rotate: -0.9deg;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2{
+  transition: 1.6s;
+  display: block;
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: #343434;
+  position: absolute;
+  top: 90%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  & > .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 5;
+    &:focus {
+      outline: none;
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      border-radius: 100%;
+    }
+    &::before {
+      transition: 1.6s;
+      width: 50px;
+      height: 50px;
+      left: -50px;
+      bottom: -50px;
+      background: #fce11a;
+    }
+  
+    &::after {
+      transition: 2s;
+      top: -20px;
+      left: -20px;
+      background: #fdc716;
+      width: 20px;
+      height: 20px;
+    }
+  
+    &:hover {
+      box-shadow: 0 5px 15px #ffbb5490;
+  
+      &:hover::before {
+        bottom: 0px;
+        width: 400px;
+        height: 400px;
+      }
+  
+      &:hover::after {
+        top: -150px;
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+  
+}
+.button {
+  transition: 1.6s;
+  display: block;
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: #343434;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  & > .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 5;
+  }
+
+  &:focus {
+    outline: none;
+  }
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+  }
+  &::before {
+    transition: 1.6s;
+    width: 50px;
+    height: 50px;
+    left: -50px;
+    bottom: -50px;
+    background: #fce11a;
+  }
+
+  &::after {
+    transition: 2s;
+    top: -20px;
+    left: -20px;
+    background: #fdc716;
+    width: 20px;
+    height: 20px;
+  }
+
+  &:hover {
+    box-shadow: 0 5px 15px #ffbb5490;
+
+    &:hover::before {
+      bottom: 0px;
+      width: 400px;
+      height: 400px;
+    }
+
+    &:hover::after {
+      top: -150px;
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+
+
+#valasztas_div {
+  width: 400px;
+  height: 400px;
+  
+
+  text-align: center;
+
+}
+
+#valasztas_div img {
+
+width: 150px;
+height: 150px;
+
+}
+#kartyaTarto1{
+width: 250px;
+text-align: center;
+height: 125px;
+border: 1px solid black;
+margin-left: 300px;
+margin-top: 390px;
+}
+#kartyaTarto2{
+width: 250px;
+text-align: center;
+height: 125px;
+border: 3px solid black;
+margin-left: 830px;
+margin-top:295px;
+}
+#kartyaTarto3{
+width: 250px;
+text-align: center;
+height: 125px;
+border: 1px solid black;
+margin-left: 1320px;
+margin-top:-550px;
+}
+#kartyaTarto4{
+z-index: 10;
+width: 250px;
+text-align: center;
+height: 125px;
+border: 1px solid black;
+margin-left: 830px;
+margin-top:-500px;
+}
