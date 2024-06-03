@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4je3IBQH+hzaR9xalzn3dEuXxk1ppegDmtqR3L/cCc7++dAqcSddXgq2AloLj/M9LWt3r5kSqcCDQpsgTM0IzQ==",
+  "success": true,
+  "projectFilePath": "H:\\2023\\c#\\projekt\\projekt\\projekt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dobil21\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\dobil21\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512",
+    "C:\\Users\\dobil21\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\dobil21\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

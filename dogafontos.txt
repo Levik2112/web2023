@@ -1,0 +1,2 @@
+A feladathoz küld el a GET paraméterként a neved, ékezetek és szóköz nélkül, a "nev" változóban, ugyanennek az file-nak. Pl.: dolgozat.php?nev=papppeter
+Csak Javascripten keresztül működik!
